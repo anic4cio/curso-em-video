@@ -7,37 +7,22 @@ c) uma contagem personalizada
 """
 
 from time import sleep
-def contagem_padrao():
-    a = 1
-    b = 11
-    c = 1
-    for x in range(a, b, c):
-        print(x, end=' ')
+def contagem(inicio, fim, passo):
+    if passo <= -1:
+        passo = abs(passo)
+    if inicio > fim:
+        passo = -passo
+    for x in range(inicio, fim, passo):
+        print(x, end=' ', flush=True)
         sleep(.3)
-    print('FIM!')
+    print('Fim!')
+    sleep(.3)
 
 
-def contagem_regressiva():
-    a = 10
-    b = 0
-    c = -2
-    for y in range(a, b, c):
-        print(y, end=' ')
-        sleep(.3)
-    print('Terminou!')
-
-
-def contagem_personalizada():
-    a = int(input('Número para iniciar a contagem: '))
-    b = int(input('Número final da contagem: '))
-    c = int(input('Passo da contagem: '))
-    if b < 0:
-        c = c - (c * 2)
-    for z in range(a, b, c):
-        print(z, end=' ')
-        sleep(.3)
-
-
-contagem_padrao()
-contagem_regressiva()
-contagem_personalizada()
+contagem(0, 10, 1)
+contagem(20, 0, 2)
+print('Sua vez de contar!')
+inicio = int(input('Número para iniciar a contagem: '))
+fim = int(input('Número final da contagem: '))
+passo = int(input('Passo da contagem: '))
+contagem(inicio, fim, passo)
