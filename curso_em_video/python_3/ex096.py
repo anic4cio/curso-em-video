@@ -10,4 +10,3 @@ def area(a, b):
 l1 = float(input('Digite a primeira metragem: '))
 l2 = float(input('Digite a segunda metragem: '))
 area(l1, l2)
-
