@@ -4,12 +4,15 @@ o ano de nascimento de uma pessoa, retornando um valor literal indicando se uma 
 OPCIONAL e OBRIGATÓRIO nas eleições.
 """
 
+
 def voto(nascimento):
     """
     Função que retorna a obrigatoriedade do voto com base no nascimento
     Parâmetro único: Data de nascimento
     """
-    nascimento = 2022 - nascimento
+
+    from datetime import date
+    nascimento = date.today().year - nascimento
     if nascimento > 17 and nascimento < 65:
         return 'voto obrigatório.'
     elif nascimento == 16 or nascimento == 17 or nascimento > 65:
