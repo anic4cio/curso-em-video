@@ -2,7 +2,6 @@ def porcentagem_mais(numero, taxa):
     total = numero + (numero * taxa) / 100
     return total
 
-
 def porcentagem_menos(numero, taxa):
     total = numero - (numero * taxa) / 100
     return total
