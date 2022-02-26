@@ -7,3 +7,4 @@ def leiadinheiro(mensagem):
         else:
             valido = True
             return float(entrada)
+
