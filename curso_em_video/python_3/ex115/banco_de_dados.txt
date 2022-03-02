@@ -1,0 +1,8 @@
+Koe;45
+Fábio;50
+Brunna;22
+Mariana;21
+Laura;19
+Rafael;34
+Sara;8
+Ederson;50
