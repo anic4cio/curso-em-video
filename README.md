@@ -1,12 +1,10 @@
-Roteiro
-Semana 1: HTML5 
-Semana 2: CSS3
-Semana 3: JavaScript
-Semana 4: ReactJS
+# Cursos finalizados - Curso em Vídeo
+### *Projetos e exercícios dos cursos do canal Curso em Vídeo*
 
-Comandos git
-git pull #Trazer o código da núvem para repositório local
-git status #Verificar o status do repositório
-git add . #Adicionar arquivos alterados para um commit
-git commit -m "Mensagem" #Efetuar um commit de arquivos adicionados com um comentário
-git push #Empurrar código do repositório local para núvem
+* **Python 3** Finalizei todo curso em pouco mais de um mês, enquanto estudava a matéria de lógica de programação e algoritmo do meu curso de Análise e Desenvolvimento de Sistemas.
+Foi uma experiência bem desafiadora como primeiro contato com a  programação.
+O que me fez ter ainda mais vontade de aprender!
+
+* **HTML5 CSS3** Cursando...
+
+* **JavaScritp** Cursando...
